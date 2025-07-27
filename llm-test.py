@@ -14,8 +14,8 @@ import sys
 import psutil
 
 # 设置默认参数
-DEFAULT_API_URL = "http://ks.sligenai.cn:5005/v1"
-DEFAULT_MODEL = "Qwen2.5-VL-7B-GPTQ-INT4/"  # 注意: 此模型可能不支持多模态。如果需要测试多模态功能，请根据实际情况调整模型名称。
+DEFAULT_API_URL = "URL"
+DEFAULT_MODEL = "modelname"  # 注意: 此模型可能不支持多模态。如果需要测试多模态功能，请根据实际情况调整模型名称。
 API_AUTH_TOKEN = "none"  # 你的 token 替换这里
 
 # Configure logging
